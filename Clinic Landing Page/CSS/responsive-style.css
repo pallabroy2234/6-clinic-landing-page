@@ -1,0 +1,131 @@
+@media (max-width: 1199.5px) {
+  /* Custom Css */
+  .card {
+    padding: 2.5rem 1.875rem;
+  }
+  /* ! Navbar */
+  .navigation-wrapper .nav-item .nav-link {
+    font-size: 1rem;
+  }
+
+  /* ! Top Banner */
+
+  .banner-wrapper .animate-img .anim1 {
+    left: -3.125rem;
+  }
+
+  /* ! About Section Design */
+  .about-wrapper .card {
+    width: 100%;
+  }
+  .about-wrapper .about-animate {
+    left: 0.9375rem;
+  }
+  /* ! Services Section Design */
+  .services-wrapper .card {
+    padding: 1.875rem 1.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Custom Css */
+  .wrapper {
+    padding: 3.125rem 0;
+  }
+  .main-btn {
+    font-size: 0.875rem;
+  }
+  h1 {
+    font-size: 2.8125rem;
+    margin-bottom: 0.625rem;
+  }
+  h2 {
+    font-size: 1.875rem;
+  }
+  h3 {
+    font-size: 1.5625rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  h5 {
+    font-size: 1.125rem;
+  }
+  p {
+    font-size: 0.875rem;
+    line-height: 1.35rem;
+  }
+  .card {
+    padding: 1.875rem 1rem;
+  }
+
+  /* ! Navbar  */
+  .navigation-wrapper.scroll-on {
+    height: auto;
+  }
+
+  .navigation-wrapper .nav-item .nav-link {
+    margin-top: 0.9375rem;
+  }
+
+  /* ! Top Banner  */
+  .banner-wrapper P {
+    max-width: 100%;
+  }
+
+  /* ! About Section Design */
+  .about-wrapper .about-clinic:nth-child(1),
+  .about-wrapper .about-clinic:nth-child(2) {
+    margin-bottom: 1.5625rem;
+  }
+
+  .about-wrapper .about-clinic:nth-child(2),
+  .about-wrapper .about-clinic:nth-child(4) {
+    padding-left: 2.375rem;
+  }
+  /* ! Services Section Design */
+  .services-wrapper .card {
+    padding: 1.875rem 0.875rem;
+  }
+  /* !Footer Design */
+  .footer-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Custom Css */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  /* ! Services Section Design */
+  .services-wrapper .card {
+    text-align: center;
+  }
+  /* ! Footer Design */
+  .footer-wrapper > div {
+    padding: 0 1.875rem;
+  }
+}
+
+@media (max-width: 360px) {
+  /* ! About Section Design */
+  .about-wrapper .about-clinic:nth-child(2),
+  .about-wrapper .about-clinic:nth-child(4) {
+    padding-left: 0.625rem;
+  }
+  .about-wrapper .about-animate {
+    width: 6.875rem;
+  }
+  .about-wrapper .card {
+    padding: 1.25rem 0.3125rem;
+  }
+  /* ! Services Section Design  */
+  .services-wrapper .icon-box {
+    margin-bottom: 0.9375rem;
+  }
+}
